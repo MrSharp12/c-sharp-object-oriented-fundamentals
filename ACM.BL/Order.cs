@@ -22,27 +22,6 @@ namespace ACM.BL
         public int OrderId { get; private set; }
 
         /// <summary>
-        /// Retrieve one order
-        /// </summary>
-        /// <param name="orderId"></param>
-        /// <returns></returns>
-        public Order Retrieve(int orderId)
-        {
-            //code that retrieves the defined order
-            return new Order();
-        }
-
-        /// <summary>
-        /// Saves the current order
-        /// </summary>
-        /// <returns></returns>
-        public bool Save()
-        {
-            //code that saves a defined order
-            return true;
-        }
-
-        /// <summary>
         /// Validates the current order
         /// </summary>
         /// <returns></returns>
