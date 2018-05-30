@@ -9,6 +9,7 @@ namespace ACM.BL
     public class Customer
     {
         public Customer()
+            : this(0)//constructor chaining, this constructor calls the other constructor
         {
 
         }
@@ -16,7 +17,10 @@ namespace ACM.BL
         public Customer(int customerId)
         {
             this.CustomerId = customerId;
+            AddressList = new List<Address>();//sets an empty list
         }
+
+        public List<Address> AddressList { get; set; }
 
         public static int InstanceCount { get; set; }
 
