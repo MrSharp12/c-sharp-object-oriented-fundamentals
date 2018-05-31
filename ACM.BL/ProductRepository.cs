@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ACM.BL
 {
-    public class ProductRepository
+    public class ProductRepository 
     {
         /// <summary>
         /// Retrieve one product
@@ -37,10 +37,21 @@ namespace ACM.BL
         /// Saves the current product 
         /// </summary>
         /// <returns></returns>
-        public bool Save()
-        {
-            //code that saves defined product
-            return true;
-        }
+        //public bool Save(Product product)
+       // {
+            //var success = true;
+            //if (product.HasChanges && product.IsValid)
+            //{
+               // if (product.IsNew)
+                //{
+                    //call an Insert Stored Procedure
+               // }
+                //else
+                //{
+                    //call an Update Store Procedure
+               // }
+               // return success;
+            //}
+        //}
     }
 }

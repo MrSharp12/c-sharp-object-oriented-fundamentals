@@ -53,7 +53,7 @@ namespace ACM.BL
         /// Saves the current customer
         /// </summary>
         /// <returns></returns>
-        public bool Save()
+        public bool Save(Customer customer)
         {
             //code that saves the defined customer
             return true;
